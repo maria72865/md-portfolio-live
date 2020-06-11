@@ -11,7 +11,7 @@ body {
     display: grid;
     grid-template-columns:1fr 1fr;
     grid-gap: 10px;
-    padding: 20px;
+    padding: 100px;
     /* margin-right: 25px; */
     font-family: "Ubuntu Condensed", sans-serif;
     color: lightgrey;
@@ -20,51 +20,46 @@ body {
 }
 
 .hero-section > .left > .left-heading  {
-    padding-bottom: 5%;
     font-family: "Ubuntu Condensed", sans-serif;
     font-size: 1.5em;
     margin-top: 100px;
+    background-color: whitesmoke;
+    opacity: 90%;
     /* margin-left: 18vw; */
     color: black;
-    /* text-align: center; */
 }
 
 .left-body-1 {
-    /* margin-left: 31vw; */
+    margin-top: 25px;
     margin-bottom: 60px;
 }
 
 .left-body-2 {
-    /* margin-left: 20vw; */
     margin-bottom: 60px;
 }
 
-.left-body-3 {
-    /* margin-left: 28vw; */
-}
+/* .left-body-3 {
+    margin-left: 28vw;
+} */
 
 .hero-section > .right > .right-heading  {
-    padding-bottom: 5%;
     font-family: "Ubuntu Condensed", sans-serif;
     font-size: 1.5em;
     margin-top: 100px;
-    /* margin-right: 18vw; */
-    color: black;
-    /* text-align: center; */
+    background-color: black;
+    color: whitesmoke;
 }
 
 .right-body-1 {
-/* text-align: center;
-margin-right: 40px; */
+margin-top: 25px;
 margin-bottom: 60px;
 }
 
 .right-body-2 {
-    /* text-align: center; */
     margin-bottom: 60px;
 }
 
-.right-body-3 {
-    /* text-align: center; */
-}
+/* .right-body-3 {
+    text-align: center;
+} */
 
