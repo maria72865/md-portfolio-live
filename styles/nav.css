@@ -56,9 +56,12 @@
 }
 
 .navigation-wrapper > .left-column > .banner-image img {
-    filter: invert(100%);
-    width: 200px;
-    height: 100%;
+    filter: opacity(75%);
+    width: 300px;
+    /* height: 100%; */
+    padding: 10px;
+    margin-top: 60px;
+
 }
 
 .links-wrapper {

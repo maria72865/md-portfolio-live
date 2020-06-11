@@ -1,10 +1,10 @@
 body {
-    background-image: url(..//images/backgrounds/brain10b.jpg);
-    height: 100vh;
+    background-image: url(..//images/backgrounds/brain.jpg);
+    /* height: 100vh; */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 /* Hero section */
