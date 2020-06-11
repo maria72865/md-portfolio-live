@@ -24,7 +24,7 @@
 [data-loading] > *:last-child{
     bottom: 0;
     right: 0;
-    transform: rotate(180deg);
+     transform: rotate(180deg);
     background: grey; 
 }
 
@@ -44,7 +44,7 @@
 
 [data-loading="complete"]{
     animation: close 0s forwards;
-    animation-delay: 3s;
+    animation-delay: 2s;
 }
 
 [data-loading="complete"] > *{
