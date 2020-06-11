@@ -31,8 +31,8 @@
 [data-loading] > * > *{
     display: block;
     position: absolute;
-    width: 10vh;
-    height: 10vh;
+    width: 30vh;
+    height: 30vh;
     top: 45vh;
     right: 0;
     background: grey;
