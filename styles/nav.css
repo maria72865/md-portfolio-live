@@ -12,7 +12,7 @@
 
 /* Left column styles */
 .links-wrapper > .nav-link a {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Dosis 700 700', sans-serif;
     color: white;
 }
 
@@ -50,9 +50,9 @@
 }
 
 .links-wrapper > .nav-link a {
-    font-family: "Ubuntu Condensed", sans-serif;
+    font-family: "Dosis 700 700", sans-serif;
     color: #cbcbcb;
-    font-size: 1.25em;
+    font-size: 1.5em;
     text-decoration: none;
     transition: 0.5s;
 }

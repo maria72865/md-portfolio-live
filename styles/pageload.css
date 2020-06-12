@@ -49,7 +49,7 @@
 
 [data-loading="complete"] > *{
     animation: open 1s forwards;
-    animation-delay: 2s;
+    animation-delay: 4s;
 }
 
 @keyframes open{
