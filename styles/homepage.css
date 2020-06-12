@@ -9,7 +9,7 @@ body {
 /* Hero section */
 .hero-section {
     display: grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr;
     grid-gap: 10px;
     padding: 100px;
     /* margin-right: 25px; */
@@ -38,13 +38,16 @@ body {
     margin-bottom: 60px;
 }
 
-/* .left-body-3 {
-    margin-left: 28vw;
-} */
+.center-spacer  {
+    width: 20vw;
+}
 
 .hero-section > .right > .right-heading  {
+    display: flex;
     font-family: "Ubuntu Condensed", sans-serif;
     font-size: 1.5em;
+    align-items: center;
+    justify-content: center;
     margin-top: 100px;
     background-color: black;
     color: whitesmoke;
