@@ -38,9 +38,9 @@ body {
     margin-bottom: 60px;
 }
 
-.center-spacer  {
-    width: 20vw;
-}
+/* .center-spacer  {
+    width: 100px;
+} */
 
 .hero-section > .right > .right-heading  {
     display: flex;
