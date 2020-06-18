@@ -17,6 +17,7 @@ body {
     color: lightgrey;
     font-size: 2em;
     text-align: center;
+    align-items: center;
 }
 
 .hero-section > .left > .left-heading  {
@@ -24,8 +25,7 @@ body {
     font-size: 1.5em;
     margin-top: 100px;
     background-color: whitesmoke;
-    opacity: 90%;
-    /* margin-left: 18vw; */
+    /* opacity: 90%; */
     color: black;
 }
 
