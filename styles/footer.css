@@ -18,14 +18,14 @@
     /* opacity: 0.5; */
 }
 
-.footer > .footer-phone-hours span {
+.footer > .footer-phone span {
     margin-left: 10px;
     margin-right: 10px;
     font-size: 1em;
     letter-spacing: 2px;
 } 
 
-/* .footer > .footer-phone-hours > .hours {
+/* .footer > .footer-phone > .hours {
     font-size: 0.8em;
     color: darkblue;
     text-transform: uppercase;

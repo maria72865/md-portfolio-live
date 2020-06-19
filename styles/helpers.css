@@ -9,6 +9,10 @@
     width: 100%;
 }
 
+.spacer100 {
+    width: 100rem;
+}
+
 .anchor-link {
     text-decoration: none;
 }

@@ -62,3 +62,23 @@
     letter-spacing: 2px
 }
 
+
+
+.about-links {
+    width: 200;
+    text-align: left;
+}
+
+.about-links a {
+    font-family: "Dosis 700 700", sans-serif;
+    color: darkblue;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.about-links a:hover {
+    color: darkblue;
+    letter-spacing: 2px
+}
+

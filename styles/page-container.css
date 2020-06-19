@@ -8,11 +8,11 @@
     width: 1000px;
 }
 
-.page-container > .content-wrapper > #chef {
+.page-container > .content-wrapper > #headshot {
     width: 350px;
     margin: 25px;
     float: left;
-    border: 1px solid darkblue;
+    border: none;
 }
 
 .page-container > .content-wrapper p {
