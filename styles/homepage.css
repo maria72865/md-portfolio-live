@@ -29,19 +29,6 @@ body {
     color: black;
 }
 
-.left-body-1 {
-    margin-top: 25px;
-    margin-bottom: 60px;
-}
-
-.left-body-2 {
-    margin-bottom: 60px;
-}
-
-/* .center-spacer  {
-    width: 100px;
-} */
-
 .hero-section > .right > .right-heading  {
     display: flex;
     font-family: "Dosis 700", sans-serif;
