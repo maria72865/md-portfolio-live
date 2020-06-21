@@ -10,7 +10,6 @@
     overflow: auto; 
     background-color: darkgrey;
     color: black;
-    /* background-color: rgba(124, 118, 118, 0.4);  */
   }
 
 .modal-btn {
@@ -43,7 +42,7 @@
 .modal-links a {
     font-family: "Dosis 700 700", sans-serif;
     color: #020202;
-    font-size: 1.2em;
+    font-size: .7em;
     text-decoration: none;
     transition: 0.5s;
 }
@@ -53,88 +52,16 @@
     letter-spacing: 2px
 }
   
-  .close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  
-  /* .modal-btn {
-    background-color: transparent;
-    color: lightgrey;
-    padding: 16px;
-    font-size: 1.1em;
-    border: none;  
-    transition: 0.5s;
-}
-
-.modal-btn:hover {
-    color: darkblue;
-    letter-spacing: 1.5px
-}
-
-.modal {
-  display: none; 
-  position: fixed; 
-  z-index: 1; 
-  padding-top: 317px; 
-  left: 0;
-  top: 0;
-  width: 49%; 
-  height: 100%; 
-  overflow: auto; 
-  background-color: #42454a; 
-}
-
-.modal-content {
-  color: #000;
-  background-color: lightgrey;
-  margin: auto;
-  padding: 20px;
-  border: 10px solid #888;
-  border-radius: 15px;
-  border-style: groove;
-  width: 80%;
-}
-
-.modal-links {
-    width: 200;
-    text-align: center;
-}
-
-.modal-links a {
-    font-family: "Dosis 700 700", sans-serif;
-    color: #020202;
-    font-size: 1.2em;
-    text-decoration: none;
-    transition: 0.5s;
-}
-
-.modal-links a:hover {
-    color: white;
-    letter-spacing: 2px
-}
-
 .close {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
-
+  
 .close:hover,
 .close:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
-    */
