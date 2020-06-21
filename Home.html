@@ -83,18 +83,28 @@
                 <div class="modal-content" id="a3"> 
                     <span class="close">&#215;</span>
                     <p><span>Websites</span></p>
-                    <div class="modal-links">
-                        <a href="./critter-gitters" target="_blank">Critter Gitters Pro, LLC</a><br>
-                        <a href="http://pilot-international.com">Pilot International (older Flash site, not maintained)</a><br>
-                        <a href="http://www.patriotguardks.org">Kansas Patriot Guard (older site, edited and maintained by them)</a><br>
-                    </div>
+                        <a href="./critter-gitters" target="_blank"><img src="images/logos/logo-critter-gitters.jpg"></a><br><br>
+                        <a href="http://pilot-international.com"><img src="images/logos/pi-web.jpg"><br>(older Flash site, not maintained)</a><br><br>
+                        <a href="http://www.patriotguardks.org"><img src="images/logos/logo-pg.jpg"><br>(older site, edited and maintained by them)</a>
                 </div>
             </div>
-              <nav class="items"> 
-                  <a class="myBtn" data-bid="a1">Apps</a> <br><br><br>
-                  <a class="myBtn" data-bid="a2">Digital Graphics</a><br><br><br> 
-                  <a class="myBtn" data-bid="a3">Websites</a>
-              </nav>
+              
+            <nav class="items"> 
+
+                <div class="modal-btn">
+                    <a class="myBtn" data-bid="a1">Apps</a> 
+                </div>
+                <br>
+                <div class="modal-btn">
+                    <a class="myBtn" data-bid="a2">Digital Graphics</a> 
+                </div>
+                <br>
+                <div class="modal-btn">
+                    <a class="myBtn" data-bid="a3">Websites</a>
+                </div>  
+                           
+            </nav>
+
         </div>
               
         <div class="center-spacer">
@@ -106,35 +116,44 @@
             <div class="right-heading">
                 Creative
             </div>
+            <br>
+            <div id="myModal1" class="modal">
 
-            <div class="right-body-1">
-                <div class="dropdown">
-                    <button class="dropbtn">Drawing/Painting</button>
-                    <div class="dropdown-content">
-                      <a href="#">Coming Soon!</a>
+                <div class="modal-content" id="a4"> 
+                    <span class="close">&#215;</span>
+                    <p><span class="modal-btn">Drawing and Painting</span></p>
+                    <p>Coming soon...</p>
+                </div>
+
+                <div class="modal-content" id="a5"> 
+                    <span class="close">&#215;</span>
+                    <p><span>Hand Crafted</span></p>
+                    <p>Coming soon...</p>
+                </div>
+                <div class="modal-content" id="a6"> 
+                    <span class="close">&#215;</span>
+                    <p><span>Property Improvements</span></p>
+                    <div class="modal-links">
+
                     </div>
                 </div>
             </div>
-
-            <div class="right-body-2">
-                <div class="dropdown">
-                    <button class="dropbtn">Hand Crafted</button>
-                    <div class="dropdown-content">
-                      <a href="#">Coming Soon!</a>
-                    </div>
+              <nav class="items"> 
+                  
+                <div class="modal-btn">
+                    <a class="myBtn1" data-bid="a4">Drawing and Painting</a> <br><br><br>
                 </div>
-            </div>
-
-            <div class="right-body-3">
-                <div class="dropdown">
-                    <button class="dropbtn">Property Improvements</button>
-                    <div class="dropdown-content">
-                      <a href="#">Coming Soon!</a>
-                    </div>
+                <br>
+                <div class="modal-btn">
+                    <a class="myBtn1" data-bid="a5">Hand Crafted</a><br><br><br> 
                 </div>
-            </div>
-        </div>    
-
+                <br>
+                <div class="modal-btn">
+                    <a class="myBtn1" data-bid="a6">Property Improvements</a>
+                </div>  
+                  
+              </nav>
+        </div>
     </div>
 
     <div data-loading>
@@ -155,11 +174,13 @@
 
     <script>
 
-window.addEventListener("load", function(){
-    var node = document.querySelector("[data-loading]");
-    node.setAttribute("data-loading","complete");
-  });
+        // Page load
+        window.addEventListener("load", function(){
+            var node = document.querySelector("[data-loading]");
+            node.setAttribute("data-loading","complete");
+        });
 
+        // Modal
         $(document).on('click','.myBtn',function(){
             var myTargetModal = '#' + $(this).data('bid');
             $('#myModal').hide();
@@ -173,6 +194,22 @@ window.addEventListener("load", function(){
               $('#myModal').hide();
             $('.modal-content').hide();
         });
+
+        // Right modal
+        $(document).on('click','.myBtn1',function(){
+            var myTargetModal = '#' + $(this).data('bid');
+            $('#myModal1').hide();
+            $('.modal-content').hide();
+            
+            $('#myModal1').fadeIn();
+            $(myTargetModal).fadeIn();
+        });
+        
+        $("body" ).on( "click",".close", function() {
+              $('#myModal1').hide();
+            $('.modal-content').hide();
+        });
+
 
         </script>
         
