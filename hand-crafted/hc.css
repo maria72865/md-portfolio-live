@@ -53,7 +53,7 @@ body {
   height: 100%;
   -webkit-transform: skewX(-18deg);
           transform: skewX(-18deg);
-  background: #000;
+  background: white;
 }
 .skw-page__half--left .skw-page__skewed {
   left: -40%;
@@ -87,16 +87,27 @@ body {
   background-size: cover;
 }
 .skw-page__half--left .skw-page__content {
-  padding-left: 30%;
-  padding-right: 30%;
-  -webkit-transform-origin: 100% 0;
-          transform-origin: 100% 0;
+  padding-left: 5%;
+  padding-right: 15%;
+  -webkit-transform-origin: 150% 0;
+          transform-origin: 150% 0;
+}
+
+.skw-page__half--left .skw-page__content img {
+  width: 70vw;
+  height: 100vh;
+  object-fit: contain;
 }
 .skw-page__half--right .skw-page__content {
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 5%;
+  padding-right: 15%;
   -webkit-transform-origin: 0 100%;
           transform-origin: 0 100%;
+}
+.skw-page__half--right .skw-page__content img {
+  width: 70rem;
+  height: 100vh;
+  object-fit: center;
 }
 .skw-page.inactive .skw-page__content {
   opacity: 0.5;
@@ -116,8 +127,9 @@ body {
 .skw-page__link {
   color: #FFA0A0;
 }
-.skw-page-1 .skw-page__half--left .skw-page__content {
-  background-image: url("./images/hc1.png");
+.skw-page-1 .skw-page__half--left .skw-page__content {  
+  /* background-image: url("./images/hc2.png"); */
+  background: white;  
 }
 .skw-page-1 .skw-page__half--right .skw-page__content {
   background: #292929;
@@ -126,10 +138,10 @@ body {
   background: #292929;
 }
 .skw-page-2 .skw-page__half--right .skw-page__content {
-  background-image: url("./images/hc2.png");
+  background: white;  
 }
 .skw-page-3 .skw-page__half--left .skw-page__content {
-  background-image: url("./images/hc3.png");
+  background: white;  
 }
 .skw-page-3 .skw-page__half--right .skw-page__content {
   background: #292929;
@@ -138,10 +150,10 @@ body {
   background: #292929;
 }
 .skw-page-4 .skw-page__half--right .skw-page__content {
-  background-image: url("./images/hc4.png");
+  background: white;  
 }
 .skw-page-5 .skw-page__half--left .skw-page__content {
-  background-image: url("./images/hc5.png");
+  background: white;  
 }
 .skw-page-5 .skw-page__half--right .skw-page__content {
   background: #292929;
