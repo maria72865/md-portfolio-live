@@ -105,11 +105,25 @@ body a:hover {
   -webkit-transform-origin: 100% 0;
           transform-origin: 100% 0;
 }
+.skw-page__half--left .skw-page__content img {
+  width: 50vw;
+  height: 80vh;
+  position: absolute;
+  padding-left: 10px;
+  object-fit: contain;
+}
 .skw-page__half--right .skw-page__content {
   padding-left: 30%;
   padding-right: 30%;
   -webkit-transform-origin: 0 100%;
           transform-origin: 0 100%;
+}
+.skw-page__half--right .skw-page__content img {
+  width: 50vw;
+  height: 80vh;
+  position: absolute;
+  padding-left: 10px;
+  object-fit: contain;
 }
 .skw-page.inactive .skw-page__content {
   opacity: 0.5;
@@ -130,7 +144,7 @@ body a:hover {
   color: #FFA0A0;
 }
 .skw-page-1 .skw-page__half--left .skw-page__content {
-  background-image: url("./images/load-plan.png");
+  background-image: url("../clouds.png");
 }
 .skw-page-1 .skw-page__half--right .skw-page__content {
   background: #292929;
@@ -139,10 +153,10 @@ body a:hover {
   background: #292929;
 }
 .skw-page-2 .skw-page__half--right .skw-page__content {
-  background-image: url("./images/208b-seat-config.png");
+  background-image: url("../clouds.png");
 }
 .skw-page-3 .skw-page__half--left .skw-page__content {
-  background-image: url("./images/amphib-seat-arrangement.png");
+  background-image: url("../clouds.png");
 }
 .skw-page-3 .skw-page__half--right .skw-page__content {
   background: #292929;
@@ -151,10 +165,10 @@ body a:hover {
   background: #292929;
 }
 .skw-page-4 .skw-page__half--right .skw-page__content {
-  background-image: url("./images/load-plan1.png");
+  background-image: url("../clouds.png");
 }
 .skw-page-5 .skw-page__half--left .skw-page__content {
-  background-image: url("./images/graph.jpg");
+  background-image: url("../clouds.png");
 }
 .skw-page-5 .skw-page__half--right .skw-page__content {
   background: #292929;
